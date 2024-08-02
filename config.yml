@@ -1,0 +1,18 @@
+debug: false
+uuid: 93c4adcb-1a2d-48c6-bbb4-051c66f3c0b7
+token_id: TfTS3K7lX2IN2D7z
+token: R0RjRcWlbPdM5zVarEOGuWHmABKiFPIoxRkdjKeu3Cq7dfHlHLvV836bZD7FJs7L
+api:
+  host: 0.0.0.0
+  port: 8080
+  ssl:
+    enabled: true
+    cert: /etc/ssls/fullchain.pem
+    key: /etc/ssls/privkey.pem
+  upload_limit: 9999999
+system:
+  data: /var/lib/pterodactyl/volumes
+  sftp:
+    bind_port: 2022
+allowed_mounts: []
+remote: 'https://panel.dominichosting.tech'
